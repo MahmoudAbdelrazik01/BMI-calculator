@@ -1,0 +1,15 @@
+name = input("enter your name: ")
+Height = int(input("enter your Height in inch: "))
+weight = int(input("enter your weight in pound: "))
+BMI = (weight * 703) / (Height ^2)
+print (BMI)
+if (BMI<18.5):
+    print ("name" + "your under weight")
+elif (BMI<=24.9):
+    print ("name" + "your weight is normal")
+elif (BMI<=34.9):
+    print ("name" + "your weight is over")
+elif (BMI>34.9):
+    print ("name" + "your weight is obese")
+else:
+    print ("enter valid numbers")
